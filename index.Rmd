@@ -1,0 +1,102 @@
+--- 
+title: "Bookdown de NOME-PRODUTO"
+author: "Daniel Claudino"
+date: "`r Sys.Date()`"
+output: pdf_document
+documentclass: book
+bibliography:
+- referencias.bib
+- packages.bib
+# cover-image: "imagens/capa-livro.png"
+description: |
+  Neste material, estão contidos um dos produtos(materiais) contidos abaixo.
+link-citations: yes
+lang: "pt-BR"
+site: bookdown::bookdown_site
+always_allow_html: true
+---
+
+# Apresentação
+
+<center><h2>Bookdown dos(as) NOME-DO-PRODUTO</h2></center>
+
+```{r echo=FALSE, fig.show="hold", out.width="50%", fig.align = "center", fig.cap="-"}
+knitr::include_graphics("imagens/FOTO-PERFIL-DANIEL-CLAUDINO-2020.png")
+```
+
+* Neste bookdown pode estar contido qualquer dos tipos de produtos relacionados abaixo. Cada tipo de produto estará relacionado a uma ou mais disciplinas, desde o 1º até o 10º período do curso de Bacharelado em Psicologia. Disponibilizarei meu material, mas poderei disponibilizar material de outros colegas de sala, caso rececba autorização prévia deles.
+  * Notas de Aula
+  * Resumos de capítulos de livros;
+  * Resumos de apresentações(slides) da disciplina;
+  * Minhas apresentações(slides);
+    * Audience Q&A (Permite que o público das apresentação envie perguntas para o apresntador)
+    * Live Polls (Permite que o público das apresntações realize votações sobre os temas apresentados)
+    * Quiz (Permite que o público das apresentações participe de competições integrando-se e assimilando melhor os temas apresentados)
+  * Exercícios (elaborados/disponibilizados pelos professores, respondidos ou não em sala);
+  * Questionários para as provas;
+  * Formulários de pesquisa (Google Forms)
+    * Elaborados por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  * Coletas de dados
+    * Realizadas por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina; dos dos meus colegas de sala, dos professores ou da disciplina;
+  * Planilhas Eletrônicas
+    * Elaborados por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  * Filmes, Documentários e outros vídeos
+    * Recomendados pelos professores, pelos colegas ou por mim;
+  * Jogos de aprendizado criados
+    * (Kahoots / Site principal: kahoot.com / Login do jogador: kahoot.it)
+  * Outros materiais elaborados e disponibilizados pelos professores e por mim.
+
+## Controle de Versão
+
+|Versão| Data / Hora | Colaborador | Descrição da Contribuição
+|:--|:--|:--|:--|
+| 0.1 | dd/mm/aaaa xxh00 | [Daniel Claudino](https://wa.me/5583988853815) | Versão inicial do documento|
+
+
+## Referências Bibliográficas
+
+### Bibliografia Básica
+
+DAVIDOFF, Linda L. Introdução à Psicologia. São Paulo: Makron Books, 2001.
+
+SPINK, M. J. P. Psicologia social e saúde: práticas, saberes e sentidos. Petrópolis:Vozes, 2013.
+
+MAISTO, Albert A.; MORRIS, Charles G. Introdução a Psicologia. 6 ed. São Paulo, Prentice Hall, 2004. [Livro Eletrônico]
+
+### Bibliografia Complementar
+
+BRIGAGÃO, J., NASCIMENTO, V. L. V., & SPINK, P. K. (2011). As interfaces entre psicologia e políticas públicas e a configuração de novos espaços de atuação. Sorocaba, (páginas, 199-215).
+
+CASTRO, E. K., & BORNHOLDT, E. (2004). Psicologia da saúde x psicologia hospitalar: definições e possibilidades de inserção profissional. Psicologia Ciência e Profissão (páginas, 48-57).
+
+COELHO, Wilson Ferreira. Psicologia do Desenvolvimento. São Paulo: Editora Pearson, 2014. [Livro Eletrônico]
+
+CÓRIA-SABINI, Maria Aparecida. Psicologia do Desenvolvimento. 2 ed. São Paulo: Editora Ática, 2010. [Livro Eletrônico]
+
+DIAS, A. C. G., PATIAS, N. D., & ABAID, J. L. W. ( 2014). Psicologia escolar e possibilidades na atuação do psicólogo: algumas reflexões. Revista Psicologia Escolar e Educacional (páginas 105-111).
+
+FEIST, J., FEIST, G., & ROBERTS, T. A. (2015). Teorias da Personalidade.
+
+FELDMAN, Robert S. Introdução à Psicologia. Porto Alegre: Editora AMGH,2015.
+
+ILETTI, Nelson; ROSSATO, Solange Marques; ROSSATO, Geovanio. Psicologia do Desenvolvimento. São Paulo, Contexto, 2014. [Livro Eletrônico]
+
+LIMA, C. F., & PIMENTEL, C. E. (2017). Livro: Revisitando a Psicologia Social. MISKOLCI, Richard. Teoria Queer: um aprendizado pelas diferenças. 2 ed. Belo Horizonte: Autêntica, 2015. [Livro Eletrônico]
+
+PADILHA, S., NORONHA, A. P. P., & ZANCHET, C. F. (2007). Instrumentos de avaliação psicológica: uso e parecer de psicólogos. Avaliação psicológica (páginas, 69-79). 
+
+SCHULTZ, D. & SCHULTZ, S. E. (2019). História da Psicologia moderna.
+
+ZANELLI, J. C., BASTOS, A. V. B., & RODRIGUES, A. C. A. ( 2014). Psicologia, Organizações e Trabalho no Brasil. (Orgs).
+
+## Observação Importante
+
+**<amarelo>NOTA</amarelo>**: Este material tem como finalidade auxiliar a fixação de assuntos estudados em sala de aula de acordo com o </amarelo>**plano de ensino desta disciplina**</amarelo>.
+
+Ele <amarelo>**não deve ser**</amarelo> utilizado como <amarelo>**único material de estudo para a prova**</amarelo>, então:
+
+1. Consulte os **slides da professora** na plataforma FTM;  
+2. Faça **notas de aula** do que for tratado em sala de aula;  
+3. Consulte nossas **notas de aula**;
+
+> **Dúvidas**: <amarelo>Devem ser encaminhadas no grupo de whatsapp da disciplina.</amarelo>
